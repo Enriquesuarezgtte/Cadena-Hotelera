@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadena Hotelera</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="./css/bootstrap.css" type="text/css" rel="stylesheet"/>
+        <script src="./js/vendor/jquery-2.2.4.min.js"></script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">Hoteles K</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Hoteles <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./mostrarCiudad.html">ciudades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./mostrarUsuario.html">usuarios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./mostrarHabitacion.html">habitaciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./mostrarMetodoPago.html">metodos de pago</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./mostrarEstado.html">estados</a>
+                    </li>                
+                    <li class="nav-item">
+                        <a class="nav-link" href="./mostrarTipoUsuario.html">tipos de usuario</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./mostrarTipoHabitacion.html">tipos de habitaciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./mostrarServicio.html">servicios disponibles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./serviciodado.html">Servicios dados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./reserva.html">Realiza tu reserva</a>
+                    </li>
+
+                </ul>             
+            </div>
+        </nav>
+        <h2 class="w3-center"></h2>
+
+    <center>
+        <div class="img-fluid" style="max-width:500px">
+            <img class="mySlides" src="./konrad.jpg" style="width:100%" >
+            <img class="mySlides" src="./korad2.jpg" style="width:100%">
+            <img class="mySlides" src="./vegas_1.jpg" style="width:70% ">
+                        <img class="mySlides" src="./vegas.jpg" style="width:70% ">
+
+        </div>
+    </center>
+        <br><div id="crudUsuario">
+            <div class="btn-group" role="group" aria-label="Basic example">               
+                <br><br><a id="botonCrear" href="./crearHotel.html" class="btn btn-success">Crear Hotel</a>
+            </div>
+        </div>
+
+        <br><br><div id="tablaHotel">
+            <table class="table table-striped">
+                <thead>
+                <th>Nombre Hotel</th>   
+                <th>Numero de  habitaciones</th>   
+                <th>Ciudad del Hotel</th>   
+                <th>Estrellas del Hotel</th>   
+                <th>Acciones</th>
+                </thead>
+
+                <tbody> </tbody>
+            </table>            
+        </div>
+
+        <script src="./js/hotel.js" type="text/javascript"></script>
+       <script src="./js/slide.js" type="text/javascript"></script>
+
+    </body>
+</html>
